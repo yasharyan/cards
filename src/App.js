@@ -2,13 +2,13 @@ import React from "react";
 import "./Style.css";
 import Navbar from "./Component/Navbar";
 import MainPage from './Component/MainPage'
-import FirstView from "./Component/FirstView";
+import Header from "./Component/FirstView";
 
 function App() {
   return (
     <React.Fragment>
       <Navbar/>
-      <FirstView/>
+      <Header/>
       <MainPage/>
     </React.Fragment>
   );

@@ -5,9 +5,11 @@ import FrontPageData from "./FrontPageData";
 
 function CategoriesCode() {
   const [data, setData] = useState(FrontPageData);
+
   const removePic = (id) => {
     setData(data.filter((pic) => pic.id !== id));
   };
+
   return (
     <React.Fragment>
       <div className="container mt-3 ">
